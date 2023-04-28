@@ -1,0 +1,54 @@
+html{
+    background:whitesmoke;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact_form {
+    border: 2px solid rgb(52, 86, 139);
+    border-radius: 6px;
+    padding: 30px;
+    background: linear-gradient(rgb(19, 27, 17),rgb(31, 197, 95));
+    width:50%;
+    box-shadow: 3px 5px 10px rgb(75, 67, 67);
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+
+}
+h2{
+    align-items: center;
+    text-align: center;
+}
+
+label {
+    color: azure;
+}
+
+input[type=text],
+[type=number],
+[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid rgb(9, 15, 26);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    resize: vertical;
+}
+
+input[type=button] {
+    background: linear-gradient(rgb(126, 172, 179), rgb(158, 12, 68));
+    color: white;
+    padding: 10px;
+    border: 2px solid azure;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px azure;
+}

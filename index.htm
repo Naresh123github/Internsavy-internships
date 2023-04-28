@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task #1 Create a Contact form</title>
+    <link rel="stylesheet" href="/contact.css">
+</head>
+<body>
+    <!-- create a simple contact form  Contact form allows users to submit
+their information and send messages
+directly from your website. You can use
+plugin or create a custom form using
+HTML and CSS.-->
+<h2>CONTACT FORM<i class="fa fa-info-circle" aria-hidden="true"></i></h2>
+<div id="abouts" class="container">
+        <div class="contact_form">
+            <form action="form.php" method="post">
+                <label for="name">Name</label>
+                <input type="text" name="Name" id="name" placeholder="enter Name">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required placeholder="enter email id">
+                <label for="phone">Phone number</label>
+                <input type="number" name="number" placeholder="phone number" id="number">
+                <label for="textarea">Message</label>
+                <textarea name="message" id="text_message" cols="10" rows="5"
+                    placeholder="write any message"></textarea>
+                <input type="button" class="contact_btn" value="submit">
+            </form>
+        </div>
+
+    </div>
+
+</body>
+</html>
